@@ -8,20 +8,18 @@ import Counter from './components/Counter'
 import CounterClass from './components/CounterClass'
 import ClickButton from './components/ClickButton'
 import { ClickButtonClass } from './components/ClickButtonClass'
-import { Calculadora } from './components/Calculadora'
 import { ClickButtonPar } from './components/ClickButtonPar'
-import IncDec from './components/IncDec'
-import ToggleTexto from './components/ToggleTexto'
-import InputControlado from './components/InputControlado'
-import MudaCor from './components/MudaCor'
-import ListaDeTarefas from './components/ListaDeTarefas'
+import ClickButtonFunc from './components/ClickButtonFunc'
+import { Calculadora } from './components/Calculadora'
+import Calendario from './components/Calendario'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      <ListaDeTarefas/>
+      <Calendario/>
       
     </div>
   )

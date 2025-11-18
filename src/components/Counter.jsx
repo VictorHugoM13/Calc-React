@@ -1,8 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 function Counter() {
     const [count, setCount] = useState(0);
-
     return (
         <div>
             <h1>Estado: {count}</h1>
@@ -11,4 +10,4 @@ function Counter() {
     );
 }
 
-export default Counter;
+export default Counter
