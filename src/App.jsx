@@ -11,7 +11,7 @@ import { ClickButtonClass } from './components/ClickButtonClass'
 import { ClickButtonPar } from './components/ClickButtonPar'
 import ClickButtonFunc from './components/ClickButtonFunc'
 import { Calculadora } from './components/Calculadora'
-import Calendario from './components/Calendario'
+import { Dia } from './components/Calendario'
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div>
-      <Calendario/>
+      <Dia/>
       
     </div>
   )
